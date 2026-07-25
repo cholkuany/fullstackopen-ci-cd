@@ -23,6 +23,8 @@ const App = () => {
     return <ErrorMessage error={error} />
   }
 
+  console.log(pokemonList)
+
   let next = null
   let previous = null
 
